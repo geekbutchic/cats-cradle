@@ -42,3 +42,16 @@ function challenge4(str) {
 
 console.log('Challenge 4:');
 challenge4('Regular expressions are for term 2.')
+
+function challenge5 (str, startIndex) {
+    let index = startIndex;
+    for (i = 0; i <= str.length-startIndex; i++) {
+        console.log(str[index-1])
+        index++;
+    }
+}
+
+console.log('Challenge 5 (Part 1):');
+challenge5('slaughter', 1);
+console.log('Challenge 5 (Part 2):');
+challenge5("I don't love you!", 7);
