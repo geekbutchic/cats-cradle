@@ -41,12 +41,12 @@ function challenge4(str) {
 }
 
 console.log('Challenge 4:');
-challenge4('Regular expressions are for term 2.');
+challenge4('Regular expressions are for term 2.')
 
 function challenge5 (str, startIndex) {
     let index = startIndex;
     for (i = 0; i < str.length-startIndex; i++) {
-        console.log(str[index]);
+        console.log(str[index])
         index++;
     }
 }
@@ -59,7 +59,7 @@ challenge5("I don't love you!", 7);
 function challenge6 (str) {
     for (i = 0; i < str.length; i++) {
         if (str[i] === 'u') {
-            console.log(i);
+            console.log(i)
         }
     }
 }
@@ -82,16 +82,40 @@ challenge7("Regular expressions are for term 2.");
 console.log('challenge 7 part 2:');
 challenge7("Hello");
 
-function challenge8(str) {
-    let index = 0;
-    while (i < str.length) {
-        if (str[i] === 'u') {
-        console.log(i);
-        return;
+/*function challenge8(str) {
+    let i = 0;
+  while (i < str.length){
+    if (str[i] === 'u'){
+      console.log(i)
+      return;
+    }
+   i++;
+  }
+}
+console.log('challenge 8')
+challenge8('You picked the wrong house, bub.');
+*/
+/*function challenge8(str) {
+    let firstIndex = 0;
+    for (i = 0 < str.length; i++;) {
+        if (str[i] === 'u'); } {
+            console.log(str[i]);
+            firstIndex++;
         }
-        index++;
+    }
+
+challenge8("You picked the wrong house, bub."); */
+
+
+/*function challenge9(str, firstFour) {
+    let i = firstFour;
+
+    while (i < firstFour + 4 && i < str.length) {
+        console.log(str[i]);
+        i++;
     }
 }
-
-console.log('challenge 8:');
-challenge8("You picked the wrong house, bub.");
+console.log("challenge 9 part 1:");
+challenge9("Oh hi, I didn't see you there. Welcome.", 4);
+console.log("challenge 9 part 2:");
+challenge9("Oh hi, I didn't see you there. Welcome.", 36); */
