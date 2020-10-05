@@ -31,14 +31,8 @@ challenge3 ('Hello');
 challenge3 ('Oh hi');
 
 function challenge4(str) {
-    let vowels = [];
-
-    let lowerCase = str.toLowerCase;
-
     for (i = 0; i < str.length; i++) {
         if (str[i] === 'a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u') {
-            vowels.push(str[i]);
-
             console.log(str[i]);
         }
     }
