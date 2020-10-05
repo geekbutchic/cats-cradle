@@ -55,3 +55,14 @@ console.log('Challenge 5 (Part 1):');
 challenge5('slaughter', 1);
 console.log('Challenge 5 (Part 2):');
 challenge5("I don't love you!", 7);
+
+function challenge6 (str) {
+    for (i = 0; i < str.length; i++) {
+        if (str[i] === 'u') {
+            console.log(i)
+        }
+    }
+}
+
+console.log('Challenge 6:');
+challenge6('You picked the wrong house, bub.');
